@@ -232,6 +232,11 @@ article {
   }
 
 @media only screen and (max-width: 1100px) {
+  .fullThreeBlock {
+    display: block;
+    width: 100%;
+  }
+
   .threeBlock {
     display: block;
     width: 100%;
