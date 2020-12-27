@@ -13,7 +13,7 @@
   box-sizing: border-box;
   font-size: 1.2rem;
   font-weight: 100;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
 img {
@@ -24,20 +24,20 @@ img {
 
 #topBar {
   background-color: var(--orange);
-    text-align-last: center;
-    padding: 3px 20px;
+  text-align-last: center;
+  padding: 3px 20px;
 }
 
-#topBar a{
+#topBar a {
   text-align: center;
   padding: 3px;
-  color:  var(--black);
+  color: var(--black);
 }
 
-#topBar a:hover{
+#topBar a:hover {
   text-align: center;
   padding: 3px;
-  color:  var(--white);
+  color: var(--white);
 }
 
 /*-------MENU-BAR----------*/
@@ -51,8 +51,8 @@ img {
 
 .topLogo {
   text-align: center;
-  margin-top:20px;
-  margin-bottom:10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   color: var(--orange);
   font-size: xx-large;
 }
@@ -65,7 +65,9 @@ ul.topnav {
   background-color: var(--black);
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -75,9 +77,13 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color:  var(--black);}
+ul.topnav li a:hover:not(.active) {
+  background-color: var(--black);
+}
 
-ul.topnav li a.active {background-color:  var(--orange);}
+ul.topnav li a.active {
+  background-color: var(--orange);
+}
 
 ul.topnav li.right {
   float: right;
@@ -99,23 +105,23 @@ ul.topnav li.right {
   padding-top: 50px;
 }
 
-.hero{
-  background-color:  var(--white);
+.hero {
+  background-color: var(--white);
   background-image: url("https://source.unsplash.com/random/800x400");
-  color:  var(--black);
+  color: var(--black);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .boxHero {
-  text-align: center;  
-  color:  var(--black);
+  text-align: center;
+  color: var(--black);
   padding-top: 30vh;
-  height:95vh;
+  height: 95vh;
 }
 
 article {
-  background-color:rgb(226, 226, 226, 70%);
+  background-color: rgb(226, 226, 226, 70%);
   z-index: 2;
 }
 
@@ -126,14 +132,14 @@ article {
 
 .hero h1 {
   text-transform: uppercase;
-  font-size:5rem;
+  font-size: 5rem;
 }
 
 .cfa {
   font-size: x-large;
   padding: 3px 20px;
   margin: 10px 10px;
-  color:  var(--white);
+  color: var(--white);
   background-color: var(--orange);
   border: none;
   text-transform: uppercase;
@@ -143,7 +149,7 @@ article {
 }
 
 .cfa:hover {
-  color:  var(--white);
+  color: var(--white);
   background-color: var(--black);
   box-shadow: none;
   transition: 1s;
@@ -159,54 +165,54 @@ article {
 /*-------SECTION-ONE----------*/
 
 .twoOfThreeBlock {
-    width: 100%;
-    display: flex;
-    height: 100%;
-    background-color: var(--gray);
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background-color: var(--gray);
 }
 
 .fullThreeBlock {
-    padding: 20px;
-    gap: 20px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    background-color: var(--gray);
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: var(--gray);
 }
 
 .threeBlock {
-    padding: 20px;
-    gap: 20px;
-    width: 50%;
-    height: auto;
-    display: flex;
-    background-color: var(--gray);
+  padding: 20px;
+  gap: 20px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  background-color: var(--gray);
 }
 
-.boxCenter3{
-  padding:0 50px 100px;
+.boxCenter3 {
+  padding: 0 50px 100px;
   text-align: center;
   width: 33.3%;
   max-height: 900px;
-  border:  var(--white) 2px solid;
+  border: var(--white) 2px solid;
 }
 
-.boxCenter3 img{
+.boxCenter3 img {
   margin: 10px;
   max-height: 200px;
-  max-width:250px;
+  max-width: 250px;
   height: auto;
-  border:  var(--white) 2px solid;
+  border: var(--white) 2px solid;
 }
 
-.boxCenter3 h2{
+.boxCenter3 h2 {
   margin: auto;
   padding-top: 90px;
   width: 170px;
   border-bottom: solid 1px var(--orange);
 }
 
-.boxCenter3 h3{
+.boxCenter3 h3 {
   margin: auto;
   padding-top: 20px;
 }
@@ -229,7 +235,7 @@ article {
     margin: 10% 20px;
 
   }
-  }
+}
 
 @media only screen and (max-width: 1100px) {
   .fullThreeBlock {
@@ -242,7 +248,7 @@ article {
     width: 100%;
   }
 
-  .boxCenter3{
+  .boxCenter3 {
     width: 100%;
   }
 }
@@ -252,59 +258,60 @@ article {
 .twoBlock {
   margin: auto;
   height: 100%;
-  width:80%;
+  width: 80%;
   display: flex;
   background-color: var(--white);
 }
 
-.boxCenter2{
+.boxCenter2 {
   text-align: center;
   height: auto;
   padding: 50px;
   width: auto;
 }
 
-.boxCenter2 img{
+.boxCenter2 img {
   background-color: var(--white);
   max-width: 500px;
   padding: 10px;
 }
 
-.boxCenter2 img:hover{
+.boxCenter2 img:hover {
   transition: 2s;
   transform: rotate(-5deg) scale(1.2);
   box-shadow: 5px 5px 20px gray;
 }
 
-.boxCenter2 h2{
+.boxCenter2 h2 {
   margin: auto;
   width: 150px;
   border-bottom: solid 1px var(--orange);
 }
 
-.boxCenter2 h3{
+.boxCenter2 h3 {
   margin: auto;
   padding-top: 20px;
 }
 
-.boxCenter2 p{
+.boxCenter2 p {
   text-align: left;
   text-indent: 10px;
   word-wrap: break-word;
   margin: auto;
   padding-top: 20px;
 }
+
 @media only screen and (max-width: 1200px) {
   .twoBlock {
     display: block;
     width: 100%;
   }
 
-  .boxCenter2{
+  .boxCenter2 {
     width: 100%;
   }
 
-  .boxCenter2 img{
+  .boxCenter2 img {
     max-width: 100%;
     transform: scale(1.0);
   }
@@ -318,62 +325,61 @@ article {
   color: var(--white);
 }
 
-.boxCenter1{
-text-align: center;
-padding: 20px;
+.boxCenter1 {
+  text-align: center;
+  padding: 20px;
 }
 
-.boxCenter1 h2{
-margin: auto;
-width: 180px;
+.boxCenter1 h2 {
+  margin: auto;
+  width: 180px;
   border-bottom: solid 1px var(--orange);
 }
 
-.boxCenter1 h3{
+.boxCenter1 h3 {
   margin: auto;
   padding-top: 20px;
-  }
+}
 
 .oneBlock img {
   margin: 35px;
-   padding: 10px;
-   border: 1px solid var(--gray);
-}
-
-@media only screen and (max-width: 800px) {
-.boxCenter1 {
-  display: block;
-  text-align: center;
-}
-
-.boxCenter1 img {
-  margin: auto;
-  max-width:100%;
-  height:auto;
   padding: 10px;
   border: 1px solid var(--gray);
 }
+
+@media only screen and (max-width: 800px) {
+  .boxCenter1 {
+    display: block;
+    text-align: center;
+  }
+
+  .boxCenter1 img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid var(--gray);
+  }
 }
 
 /*---------FOOTER---------*/
 
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color:  var(--black);
-    color: var(--white);
-    position: relative;
-  }
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--black);
+  color: var(--white);
+  position: relative;
+}
 
-  footer a{
-    text-align: center;
-    padding: 3px;
-    color:  var(--gray);
-  }
+footer a {
+  text-align: center;
+  padding: 3px;
+  color: var(--gray);
+}
 
-  footer a:hover{
-    text-align: center;
-    padding: 3px;
-    color:  var(--orange);
-  }
-  
+footer a:hover {
+  text-align: center;
+  padding: 3px;
+  color: var(--orange);
+}
