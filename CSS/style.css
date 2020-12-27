@@ -325,35 +325,35 @@ article {
   color: var(--white);
 }
 
-.boxCenter1 {
-  text-align: center;
+.aboutPage {
+  text-align: left;
   padding: 20px;
 }
 
-.boxCenter1 h2 {
+.aboutPage h2 {
   margin: auto;
   width: 180px;
   border-bottom: solid 1px var(--orange);
 }
 
-.boxCenter1 h3 {
+.aboutPage h3 {
   margin: auto;
   padding-top: 20px;
 }
 
-.oneBlock img {
-  margin: 35px;
+.aboutPage img {
+  margin: auto;
   padding: 10px;
   border: 1px solid var(--gray);
 }
 
 @media only screen and (max-width: 800px) {
-  .boxCenter1 {
+  .aboutPage {
     display: block;
-    text-align: center;
+    text-align: left;
   }
 
-  .boxCenter1 img {
+  .aboutPage img {
     margin: auto;
     max-width: 100%;
     height: auto;
