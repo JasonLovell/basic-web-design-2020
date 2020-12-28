@@ -320,47 +320,53 @@ article {
 /*--------SECTION-THREE---------*/
 
 .oneBlock {
+  padding: 5%;
   height: auto;
   background-color: var(--black);
   color: var(--white);
 }
 
-.aboutPage {
-  text-align: left;
-  padding: 20px;
+.boxCenter1 {
+  margin: auto;
+  text-align: center;
 }
 
-.aboutPage h2 {
+.boxCenter1 h2 {
   margin: auto;
   width: 180px;
   border-bottom: solid 1px var(--orange);
 }
 
-.aboutPage h3 {
+.boxCenter1 h3 {
   margin: auto;
   padding-top: 20px;
 }
 
-.aboutPage img {
-  margin: auto;
+.boxCenter1 img {
+  margin: 20px;
   padding: 10px;
   border: 1px solid var(--gray);
 }
 
 @media only screen and (max-width: 800px) {
-  .aboutPage {
-    display: block;
-    text-align: left;
+
+  .oneBlock {
+    padding: 20px;
+    height: auto;
+    background-color: var(--black);
+    color: var(--white);
   }
 
-  .aboutPage img {
+  .boxCenter1 {
     margin: auto;
-    max-width: 100%;
-    height: auto;
+    text-align: center;
+  }
+
+  .boxCenter1 img {
+    max-width: 90%;
     padding: 10px;
     border: 1px solid var(--gray);
   }
-}
 
 /*---------FOOTER---------*/
 
