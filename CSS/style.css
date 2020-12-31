@@ -368,6 +368,50 @@ article {
     border: 1px solid var(--gray);
   }
 }
+
+/*---------ABOUT PAGE---------*/
+
+.aboutPage {
+  padding: 20px;
+  word-wrap: break-word;
+}
+
+.aboutPage h2 {
+  margin: auto;
+  text-align: center;
+  width: 110px;
+  border-bottom: solid 1px var(--orange);
+}
+
+.aboutPage img {
+  margin:45px 20px 10px;
+  padding: 5px;
+  border: 1px solid ivory;
+}
+
+.aboutPage h3 {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.aboutPage p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.rightOne{
+  max-width: 80%;
+  padding: 20px;
+  float: right;
+}
+
+.leftTwo{
+  max-width: 80%;
+  padding: 20px;
+  float: left;
+}
+
+
 /*---------FOOTER---------*/
 
 footer {
@@ -379,7 +423,9 @@ footer {
 }
 
 footer a {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 3px;
   color: var(--gray);
 }
@@ -389,3 +435,9 @@ footer a:hover {
   padding: 3px;
   color: var(--orange);
 }
+
+.flexTest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
